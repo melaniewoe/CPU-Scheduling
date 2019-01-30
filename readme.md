@@ -14,7 +14,8 @@ response time.
 The user can select one algorithm when they start the 
 simulator as the 3rd argument. For example,
 FCFS :./myscheduler test-input-file-name output-file-name 0
-SRTF: ./myscheduler test-input-file-name output-file-name 1PP: ./myscheduler test-input-file-name output-file-name 3
+SRTF: ./myscheduler test-input-file-name output-file-name 1
+PP: ./myscheduler test-input-file-name output-file-name 3
 while for RR, it needs the time quantum as the 4th 
 argument:
 RR:./myscheduler test-input-file-name output-file-name 2 quantum size
